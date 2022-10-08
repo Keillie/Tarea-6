@@ -21,8 +21,6 @@ const proveedores = {
         };
         res.send({ message: "El proveedor se ha registrado correctamente!" });
 
-          
-      
           if (req.file == undefined) {
             return res.status(400).send({ message: "Please upload a file!" });
           }
